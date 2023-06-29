@@ -1,4 +1,6 @@
-
+/* 
+Jeff 6/29/2023
+*/
 
 "use strict"
 
@@ -73,7 +75,6 @@ function getItemtemp(passed){
 
   changeText.innerHTML = `${passed} of ${temp} items checked`
 }
-
 
 function getDeletedItemtemp(){
     let items = itemsContainer.firstElementChild.firstElementChild.children;
